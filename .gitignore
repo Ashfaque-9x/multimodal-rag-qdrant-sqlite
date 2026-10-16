@@ -1,0 +1,53 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python bytecode and cache files
+__pycache__/
+__pycache__
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+ragvenv/
+
+# Persistent RAG data: SQLite database, local Qdrant, PDFs, extracted images
+rag_storage/
+*.sqlite
+*.sqlite3
+*.db
+
+# Streamlit runtime/cache
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Test, coverage, and type-checking caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Build/package artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

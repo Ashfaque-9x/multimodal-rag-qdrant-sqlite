@@ -1,0 +1,25 @@
+# LangChain core and integrations
+langchain
+langchain-classic
+langchain-community
+langchain-core
+langchain-openai
+langchain-qdrant
+qdrant-client
+
+# PDF parsing and image processing
+unstructured
+unstructured[all-docs]
+unstructured[local-inference]
+unstructured[pdf]
+pillow
+lxml
+opencv-python-headless
+
+# App, configuration, tokenization
+streamlit
+python-dotenv
+tiktoken
+
+# Existing utilities retained from the supplied requirements
+reportlab

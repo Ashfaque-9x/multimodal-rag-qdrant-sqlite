@@ -1,0 +1,32 @@
+# Secrets: provide environment variables at runtime with --env-file; never bake .env into the image.
+.env
+.env.*
+!.env.example
+
+# Persistent runtime data should be mounted as a volume, not copied into the image.
+rag_storage/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python environments and caches
+.venv/
+venv/
+env/
+ragenv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Version control and editor/OS files
+.git/
+.gitignore
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local outputs and unrelated files
+*.log
+*.tmp
