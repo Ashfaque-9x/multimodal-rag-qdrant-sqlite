@@ -411,6 +411,4 @@ submitting changes:
 
 ## License
 
-Add a `LICENSE` file before publishing if you intend to grant others
-permission to use, modify, and distribute this project. No license is
-specified by this README.
+`LICENSE` 
